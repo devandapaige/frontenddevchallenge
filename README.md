@@ -16,4 +16,4 @@ Thank you for the consideration,
 
 2. Created a simple [wireframe](https://whimsical.com/nasa-spacestagram-3zU7YRjbffYjxEz7qKokuE) for what I want my React App to look like and then formatted the React App components to match my wireframe.
 
-3.
+3. Before pulling data I created my Header, Footer, MainContent, LikesContainer, and DatePicker components to match the wireframe. I installed Bootstrap for this project to make the mobile version of the site work without too much extra work. I plan to pull the API request in the MainContent component to feed the data into the ImageContainer. 
