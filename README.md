@@ -3,11 +3,12 @@
 -- Winter 2022 Spacestagram: Image-sharing from the final frontier --
 -- a Shopify Intership Challenge --
 
-[Link to Deployed Site](LINK)
+[Link to Deployed Site](https://nasa-potd-self.vercel.app/)
 
 [Link to Whimsical Wireframe](https://whimsical.com/nasa-spacestagram-3zU7YRjbffYjxEz7qKokuE)
 
 Thank you for the consideration,
+
 **Amanda Nelson**
 
 [hello@amanda-nelson.com](mailto:hello@amanda-nelson.com)
