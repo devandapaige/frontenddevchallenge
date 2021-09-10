@@ -11,8 +11,6 @@ Thank you for the consideration,
 
 **Amanda Nelson**
 
-[hello@amanda-nelson.com](mailto:hello@amanda-nelson.com)
-
 [Portfolio](http://amanda-nelson.com)
 
 ## Steps to Create Project:
