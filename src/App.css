@@ -1,3 +1,39 @@
-header img {
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+header {
+  background-color: black;
+  color: white;
+}
+.topHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.topHeader img {
   max-height: 4rem;
+}
+
+/* Footer */
+.footerContainer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+}
+.footerContainer a {
+  color: white;
+  text-decoration: none;
+}
+.footerContainer a:hover {
+  color: red;
+  text-decoration: underline;
 }
