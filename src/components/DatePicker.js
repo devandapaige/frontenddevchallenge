@@ -1,27 +1,20 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function DatePicker(props) {
-  const [validDate, setValidDate] = useState(false);
+  //   const [validDate, setValidDate] = useState(false);
   const today = props.maxDate;
   const min = props.minDate;
-  const { handleChange } = props;
+  console.log(props);
   return (
     <div>
       <form>
-        <input
-          type="date"
-          selected={date}
-          onChange={(date) => {
-            if (date < today && date > min) {
-              setValidDate(true);
-            } else {
-              setValidDate(false);
-              alert(`Please choose a day between ${min} and ${today}`);
-            }
-          }}
-        />
+        <input type="date" min={min} max={today} />
         <button type="submit">Submit</button>
       </form>
+      <div>
+        <button>Random</button>
+        <button>Today</button>
+      </div>
     </div>
   );
 }
